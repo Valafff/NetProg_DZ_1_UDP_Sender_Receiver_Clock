@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSenderUDP", "ServerUDP\TimeSenderUDP.csproj", "{BC629ADB-F3A2-48BF-A5A2-14DE2C291092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeReceiver", "ClientUDP\TimeReceiver.csproj", "{CACAE0B0-E852-4961-B8B9-EBE819F59508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC629ADB-F3A2-48BF-A5A2-14DE2C291092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC629ADB-F3A2-48BF-A5A2-14DE2C291092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC629ADB-F3A2-48BF-A5A2-14DE2C291092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC629ADB-F3A2-48BF-A5A2-14DE2C291092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CACAE0B0-E852-4961-B8B9-EBE819F59508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACAE0B0-E852-4961-B8B9-EBE819F59508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACAE0B0-E852-4961-B8B9-EBE819F59508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACAE0B0-E852-4961-B8B9-EBE819F59508}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E72128-B40E-4EFE-A23E-10959C1E518A}
+	EndGlobalSection
+EndGlobal
